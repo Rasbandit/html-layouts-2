@@ -1,0 +1,75 @@
+body {
+  width: 800px;
+  margin: auto;
+  padding: 20px
+}
+
+.header {
+
+  height: 140px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-one {
+  height: 100%;
+  width: 31%;
+  background: red;
+}
+
+.header-two {
+  height: 100%;
+  width: 31%;
+  background: blue;
+}
+
+.header-three {
+  height: 100%;
+  width: 31%;
+  background: gray;
+}
+
+.text-body {
+  width: 100%;
+  padding: 30px 2px;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.two-box {
+  height: 250px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.two-box-red {
+  height: 100%;
+  width: 25%;
+  background: red;
+}
+
+.two-box-blue{
+  height: 100%;
+  width: 75%;
+  background: lightblue;
+}
+
+.flag {
+  width: 100%;
+  height: 120px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.flag-red {
+  width: 3%;
+  height: 100%;
+  background: red;
+}
+
+.flag-black {
+  width: 19%;
+  height: 100%;
+  background-color: black;
+}

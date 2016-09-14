@@ -1,0 +1,69 @@
+body {
+  width: 800px;
+  margin: auto;
+}
+
+.bg {
+  background: lightgrey;
+  margin: auto;
+  padding-top: 30px;
+  width: 100%;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.container {
+  width: 87%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  background: white;
+  padding: 30px;
+  margin-bottom: 40px;
+}
+
+.container p {
+  font-size: 15px;
+  font-weight: bolder;
+  padding-bottom: 25px;
+}
+
+.container img {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 35px;
+}
+
+.button-red {
+  background: crimson;
+  color: white;
+  height: 45px;
+  width: 110px;
+  font-size: 25px;
+  margin-right: 15px;
+}
+
+.button-blue {
+  background: skyblue;
+  color: white;
+  font-size: 25px;
+  height: 45px;
+  width: 110px;
+}
+
+.footer-bar {
+  background: gray;
+  width: 100%;
+  height: 60px;
+  padding-right: 54px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: white;
+  font-size: 18px;
+}
+
+.apple {
+  margin-right: 50px;
+}
